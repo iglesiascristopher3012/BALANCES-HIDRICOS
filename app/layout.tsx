@@ -16,12 +16,21 @@ export const metadata: Metadata = {
     siteName: "Equilibrios Hídricos Neonatales",
     locale: "es_MX",
     type: "website",
+    images: [
+      {
+        url: "/opengraph-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Equilibrios Hídricos Neonatales",
+      },
+    ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Equilibrios Hídricos Neonatales",
     description:
       "Calculadora clínica de equilibrios hídricos neonatales para apoyo en la valoración de pérdidas insensibles, líquidos reales, balance hídrico total y uresis horaria.",
+    images: ["/opengraph-image.png"],
   },
 };
 
